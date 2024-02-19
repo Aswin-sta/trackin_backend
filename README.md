@@ -2,7 +2,7 @@
 
 # Tracking Backend
 
-I made the following changes:
+files that I have worked:
 
 - src > authorization > \*
 - src > controller > user>\*
