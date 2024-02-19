@@ -1,10 +1,9 @@
 import express, { Request, Response } from "express";
-import {
-  getAllUsers,
-  getUserById,
-  getCurrentUser,
-} from "../controllers/user/getUSer";
+
 import jwtVerification from "../middleware/jwtVerification";
+import getAllUsers from "../controllers/user/getAllUsers";
+import getCurrentUser from "../controllers/user/getUSer";
+import getUserById from "../controllers/user/getUserById";
 
 const userRouter = express.Router();
 
