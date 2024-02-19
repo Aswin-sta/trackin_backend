@@ -2,9 +2,7 @@ import { Request, Response } from "express";
 import { Sequelize, fn, col } from "sequelize";
 import TrainingProgramFeedback from "../../models/trainingProgramFeedback";
 import UserTraining from "../../models/userTraining";
-import TrainingProgram from "../../models/trainingProgram";
-import ProgramTrainer from "../../models/programTrainer";
-import Trainer from "../../models/trainer";
+
 import User from "../../models/user";
 
 const getTrainingProgramFeedbackById = async (

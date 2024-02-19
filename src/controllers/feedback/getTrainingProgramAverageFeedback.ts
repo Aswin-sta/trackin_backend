@@ -41,17 +41,16 @@ const getTrainingProgramAverageFeedback = async (
             {
               model: TrainingProgram,
               required: true,
-              attributes: [], // Exclude other attributes from TrainingProgram
+              attributes: [],
               include: [
                 {
                   model: ProgramTrainer,
                   required: true,
-                  attributes: [], // Exclude other attributes from ProgramTrainer
+                  attributes: [],
                   include: [
                     {
                       model: Trainer,
                       required: true,
-                      // Exclude other attributes from Trainer
                     },
                   ],
                 },
